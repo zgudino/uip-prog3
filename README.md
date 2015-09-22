@@ -1,8 +1,8 @@
 #Programación de Computadoras III - UIP
 
-:Autor: Zahir Gudiño
-:Fecha: 18.09.2015
-:Versión: 0.1.0
+Autor: _Zahir Gudiño_ <br/>
+Fecha: _18.09.2015_ <br/>
+Versión: _0.1.0_ <br/>
 
 Repositorio del curso Programación de Computadoras III
 
