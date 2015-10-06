@@ -24,7 +24,7 @@ def seconds_to_minute(second):
 
     if second > 60:
         # @fix
-        # La función abs() corrige un glitch donde si el valor es menor a 100, reotorna segundos próximos negativos.
+        # La función abs() corrige un glitch donde si el valor es menor a 100, retorna segundos próximos negativos.
         # Creditos Prof. Abdel Martinez por la solución
         time["seconds_left"] = abs(60 - (second - (hundreds(second))))  # Segundos proximo minuto
         time["minute_enlapsed"] = int(second / 60)  # Minutos transcurridos
