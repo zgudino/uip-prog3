@@ -18,7 +18,7 @@ Luego, el interpretador inicializa la variable de ambiente `__name__` asignando 
 
 ###### Ejemplo
 
-```
+```python
 # b.py
 def say(msg: str) -> str:
     try:
@@ -36,7 +36,7 @@ if __name__ == "__main__":
     happy()
 ```
 
-```
+```python
 # a.py
 import playground.mods.b as b
 
@@ -51,14 +51,14 @@ if __name__ == "__main__":
 
 Si ejecutamos el fuente **b.py**
 
-```
+```sh
 ❯ python3 b.py
 I'm very happy now!
 ```
 
 Por otro lado, ejecutamos el fuente **a.py**
 
-```
+```sh
 ❯ python3 a.py
 Hola
 Mensaje desde modulo __main__
