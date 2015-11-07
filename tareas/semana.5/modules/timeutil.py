@@ -1,5 +1,5 @@
 import math as mah
-from mods.decorators import typeint
+from modules.decorators import typeint
 
 
 @typeint

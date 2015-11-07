@@ -1,4 +1,4 @@
-from mods.timeutil import minutes, hours, days
+from modules.timeutil import minutes, hours, days
 
 if __name__ == "__main__":
     try:
