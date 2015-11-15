@@ -3,7 +3,7 @@ if __name__ == "__main__":
     from sport import Sport
     from collections import OrderedDict
 
-    sports = Enum('sports', 'AJEDREZ FUTBOL BALONCESTO ATLETISMO')
+    sports = Enum('sports', 'AJEDREZ ATLETISMO BALONCESTO FÚTBOL KARATE NATACIÓN VOLLEYBALL FLAG PINGPONG OTROS')
     sport = Sport(sports)
     people = range(0, 10)
 
@@ -16,7 +16,7 @@ if __name__ == "__main__":
         for s in sports:
             print("%s. %s" % (s.value, s.name))
 
-        choice = input("\n[1-4] ")
+        choice = input("\n[1-%s] " % len(sports))
         sport.upFav(sport.findById(int(choice)))
 
     # Implemento una instancia de dict con la ayuda de la clase OrderedDict. Este dict cuenta con los deportes
